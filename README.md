@@ -23,4 +23,7 @@ Agrega un botón circular junto al menú de opciones en los perfiles de x.com. A
 
 Esta extensión solo funciona en la versión web de x.com y puede dejar de funcionar si la estructura del sitio cambia.
 
----
+## Autor
+
+- [@AlexBR784](https://www.github.com/AlexBR784)
+
