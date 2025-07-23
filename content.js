@@ -79,15 +79,17 @@ function handleBlock(container) {
 
 const dialogObserver = new MutationObserver((mutations) => {
   mutations.forEach((mutation) => {
-    mutation.removedNodes.forEach((node) => {
+    mutation.addedNodes.forEach((node) => {
       if (
         node.nodeType === 1 &&
         node.querySelector &&
-        node.querySelector('[data-testid="confirmationSheetDialog"]')
+        node.querySelector('[data-testid="confirmationSheetConfirm"]')
       ) {
-        console.log("Dialogo de confirmación cerrado");
-
-        if (lastMenuBtn) lastMenuBtn.click();
+        // Pulsa automáticamente el botón de "Bloquear"
+        const confirmBtn = node.querySelector(
+          '[data-testid="confirmationSheetConfirm"]'
+        );
+        if (confirmBtn) confirmBtn.click();
       }
     });
   });
