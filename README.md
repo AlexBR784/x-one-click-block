@@ -4,7 +4,7 @@ Extensión que añade un botón de bloqueo rápido en perfiles de X (antes Twitt
 
 ## ¿Qué hace?
 
-Agrega un botón circular junto al menú de opciones en los perfiles de x.com. Al hacer clic, permite bloquear al usuario de forma inmediata, sin necesidad de navegar por menús.
+Agrega un botón circular junto al menú de opciones en los posts de x.com. Al hacer clic, permite bloquear al usuario de forma inmediata, sin necesidad de navegar por menús.
 
 ## Instalación
 
